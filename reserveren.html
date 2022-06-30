@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserveren - La Mouche Rouge</title>
+<link href='http://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="icon" href="img/logo.png">
+
+<style>
+</style>
+</head>
+<body>
+	<header class="header">
+	
+	 <h1 class="logo">
+          <a href="index.html">
+		  <img src="img/logo.png" alt="logo" ></a>
+        </h1>
+      <ul class="main-nav">
+         <li><a href="index.html">Home</a></li>
+			<li><a href="overons.html">Over ons</a></li>
+			<li><a href="voorstellingen.html">Voorstellingen</a></li>
+			<li class="active"><a href="reserveren.html">Reserveren</a></li>
+			<li><a href="contact.html">Contact</a></li>
+      </ul>  
+	</header> 
+
+
+<div class="center">
+<div class="tekst">
+<h3>Reserveren </h3>
+<p>Hier kan u reserveren voor verschillende tonelen. Vul alles goed in.</p>
+(*) Verplichte veld
+</div>
+<div class="container">
+ <form method="post" enctype="text/plain">
+ <fieldset>
+    <label for="fname">Voornaam (*)</label>
+	<br>   <input type="text" id="fname" name="voornaam" autofocus >
+	
+    <br><label for="lname">Achternaam (*)</label>
+    <br><input type="text" id="lname" name="achternaam"  >
+	
+	 <br><label for="fname">E-mail (*)</label>
+	 <br><input type="text" id="mail" name="mail" placeholder="example@gmail.com">
+	
+	<br><label for="voorstelling">Voorstellingen (*)</label>
+	 <br><select id="voorstelling" name="voorstelling">
+      <option value="Liberosis">Liberosis</option>
+      <option value="unlabeled">Unlabeld</option>
+      <option value="krachtig">Krachtig</option>  
+	  <option value="ikweet">Ik weet wat je wil</option> 
+    </select>
+	
+    <br><label for="personen">Aantal personen (*)</label>
+    <br><select id="personen" name="personen">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+	  <option value="4">4</option>
+	  <option value="5">5</option>
+	  <option value="meer">Meer</option>
+    </select>
+	
+	<br><label for="lname">Datum (*)</label>
+    <br><input type="date" id="date" name="datum" >
+    
+	<br><label for="subject">Opmerkingen</label>
+    <br><textarea id="subject" name="subject" style="height:100px"></textarea>
+	
+	<br><input type="submit" value="Submit">
+	
+	 </fieldset>
+  </form>
+</div>
+</div>
+	
+
+	
+<!-- footer -->
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12">
+	<div class="footer_socials">
+				<a href="https://www.facebook.com/La-Mouche-Rouge-377424192468276/">
+					<img src="img/facebook.png" alt="LogoFacebook">
+				</a>
+				<a href="">
+				<img src="img/instagram.png" alt="LogoInstagram">
+				</a>
+				</div>
+      <div class="copyright"> &copy; La Mouche Rouge <a href="#index.html"> </a>
+      </div>
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>

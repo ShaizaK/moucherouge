@@ -1,0 +1,243 @@
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  margin: 0px;
+  color: #990000;
+  background-color: #FFFFFF;
+  text-align: center;
+ 
+  
+}
+ul {
+  list-style: none;
+}
+/*links*/
+a {   
+    color: #0000FF;	
+	
+	text-decoration: underline;
+}
+
+
+/*.logo a,*/
+.main-nav a {
+	padding: 15px 30px;	
+	text-align: center;
+	display: block;
+	color: #FFFFFF;
+	font-size: .99em;
+}
+/*.header img {
+	margin: 0;
+	font-size: 1.45em;
+}*/
+
+.header {
+	background-image: url(../img/achtergrond.jpg);
+	background-repeat: no-repeat;
+
+	
+}
+/* kleur welke pagina active is */
+.active {
+    
+	text-decoration: underline;
+	font-weight:bold;
+	
+}
+a:focus, a:hover { 
+ color: #000000; 
+
+}
+
+
+/* logo */
+.logo img {
+  background: #555;
+  font: inherit;
+  width:100%;
+  height:100%;
+  
+  
+ 
+  
+}
+
+/* logo tekst */
+.logo h1 {
+  position: relative;
+  top: 18px;
+  left: 5px;
+}
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+		.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+}
+
+
+/* img homepage*/
+.homefoto1 img{
+max-width:100%;
+
+padding-top: 50px;
+border-style: none;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+.tekst {
+    text-align: left;  
+	padding-top:10px;
+	padding-left: 7px;
+    
+}
+
+
+/*overons*/
+
+.center {
+    margin: auto;
+    text-align:left;
+	max-width: 650px; 
+	
+}
+
+/*Leden*/
+
+figure{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	display: block;	
+	text-align: left;
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom:18px;
+
+
+}
+img.leden {
+	width:100%;
+		
+}
+div.leden {
+	display: grid;
+	grid-template-columns: 1fr 1fr  ;
+	grid-gap: 10px;
+	
+
+	
+}
+
+@media screen and (max-width: 400px) {
+    div.leden {
+    grid-template-columns: 1fr;
+    }  
+    
+}
+section {
+font-weight: 100;
+font-size: 1.12rem;
+line-height: 1.5;
+margin-top:25px;
+
+
+}
+
+video{
+	width:100%;
+}
+p.bold{
+	font-weight:bold;
+}
+
+/*Reserveren form*/
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+	width: 250px;	
+    
+}
+
+input[type=submit] {
+    background-color: #990000;
+    color: #FFFFFF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+	
+}
+
+
+/* Footer */
+
+#footer {
+  padding: 39px 0 54px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url(../img/achtergrond.jpg);
+  border: 1px solid #a2a2a2; 
+  bottom: 0;
+  width: 99.9%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; 
+}
+
+
+
